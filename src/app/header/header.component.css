@@ -164,7 +164,7 @@
 .header__btn-know-more:hover,
 .header__btn-hire-me:hover {
   border: transparent;
-  background: #ffffff;
+  background: var(--white-background);
   box-shadow: 0 18px 29px 8px rgba(0,0,0,0.1);
 }
 
