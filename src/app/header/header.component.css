@@ -103,7 +103,6 @@
   transform: translateX(-50%);
 }
 
-
 .header-navigation__item-text:hover:after,
 .header-navigation__item-text:focus:after {
   width: 100%;

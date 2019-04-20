@@ -1,0 +1,98 @@
+.portfolio{
+  height: 1100px;
+  background: var(--grey-background);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.portfolio__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio__separator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 126px;
+  width: 60px;
+  height: 4px;
+  background: var(--content-titles-color_grey);
+}
+
+.portfolio__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Asap Bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+  font-size: 46px;
+  color: var(--content-titles-color_grey);
+}
+
+.portfolio__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+
+.portfolio__item:hover {
+  box-shadow: 0 0 49px 25px rgba(0,0,0,0.15);
+}
+
+.portfolio__item:after {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  background: var(--white-background);
+  z-index: 10;
+}
+
+.portfolio__item:hover::before,
+.portfolio__item:focus::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.portfolio__item:hover:after,
+.portfolio__item:focus:after {
+  width: 54px;
+  height: 54px;
+  content: url("../../assets/logos/link-icon.png");
+}
