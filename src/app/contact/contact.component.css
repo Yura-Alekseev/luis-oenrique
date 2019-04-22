@@ -1,0 +1,287 @@
+.contact {
+  background: url("../../assets/backgrounds/contact-background.png") no-repeat;
+  background-size: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact__separator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  width: 60px;
+  height: 4px;
+  background: var(--contact_separator-color);
+}
+
+.contact__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Asap Bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 60px;
+  font-size: 46px;
+  color: var(--contact_title-color);
+}
+
+/*CONTACT__FORM*/
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 770px;
+  margin: 0 auto;
+}
+
+.contact__form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__name,
+.contact__email {
+  width: 370px;
+  height: 57px;
+  padding: 0 9px;
+  background: var(--white-background);
+  border: none;
+  font-family: "Asap Regular", sans-serif;
+  color: var(--main-color_dark-grey);
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.contact__name::placeholder,
+.contact__email::placeholder {
+  font-family: "Asap Regular", sans-serif;
+  color: var(--main-color_dark-grey);
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.contact__message {
+  width: 100%;
+  height: 207px;
+  margin-top: 30px;
+  padding: 25px 9px 0;
+  resize: none;
+  border: none;
+  background: var(--white-background);
+  font-family: "Asap Regular", sans-serif;
+  color: var(--main-color_dark-grey);
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.contact__message::placeholder {
+  font-family: "Asap Regular", sans-serif;
+  color: var(--main-color_dark-grey);
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.contact__form-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px auto 0;
+  width: 123px;
+  height: 50px;
+  border: none;
+  background: var(--white-background);
+  font-family: "Asap Medium", sans-serif;
+  color: var(--main-color_dark-grey);
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 18px 29px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.contact__btn-arrow {
+  margin-left: 7px;
+  margin-top: 2px;
+  content: url("../../assets/logos/send-button.png");
+}
+
+.contact__form-btn:hover,
+.contact__up-btn:hover {
+  box-shadow: 0 0 29px 8px rgba(255,255,255,0.4);
+}
+
+.contact__up-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 1270px;
+  margin-top: 245px;
+  width: 45px;
+  height: 41px;
+  background: var(--white-background);
+  box-shadow: 0 18px 29px 8px rgba(0,0,0,0.1);
+}
+
+.contact__up-btn-arrow {
+  content: url("../../assets/logos/up-btn-arrow.png");
+}
+
+.contact__footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 58px;
+  border-top: 1px solid var(--white-background);
+}
+
+.contact__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 26px 0 30px;
+  width: 18%;
+}
+
+.contact__social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27px;
+  height: 27px;
+  background: var(--white-background);
+}
+
+.contact__facebook-photo {
+  width: 12px;
+  height: 17px;
+  content: url("../../assets/logos/facebook-logo.svg");
+}
+
+.contact__facebook:hover {
+  background: #3A559F;
+}
+
+.contact__facebook:hover > .contact__facebook-photo {
+  width: 12px;
+  height: 17px;
+  content: url("../../assets/logos/facebook-logo-hover.svg");
+}
+
+.contact__twitter-photo {
+  width: 15px;
+  height: 13px;
+  content: url("../../assets/logos/twitter-logo.svg");
+}
+
+.contact__twitter:hover {
+  background: #55ACEE;
+}
+
+.contact__twitter:hover > .contact__twitter-photo {
+  width: 15px;
+  height: 13px;
+  content: url("../../assets/logos/twitter-logo-hover.svg");
+}
+
+.contact__linkedin-photo {
+  width: 13px;
+  height: 13px;
+  content: url("../../assets/logos/linkedin-logo.svg");
+}
+
+.contact__linkedin:hover {
+  background: #007AB9;
+}
+
+.contact__linkedin:hover > .contact__linkedin-photo {
+  width: 13px;
+  height: 13px;
+  content: url("../../assets/logos/linkedin-logo-hover.svg");
+}
+
+.contact__google-plus-photo {
+  width: 22px;
+  height: 17px;
+  content: url("../../assets/logos/google-plus-logo.svg");
+}
+
+.contact__google-plus:hover {
+  background: #DD4B39;
+}
+
+.contact__google-plus:hover > .contact__google-plus-photo {
+  width: 22px;
+  height: 17px;
+  content: url("../../assets/logos/google-plus-logo-hover.svg");
+}
+
+.contact__behance-photo {
+  width: 19px;
+  height: 15px;
+  content: url("../../assets/logos/behance-logo.svg");
+}
+
+.contact__behance:hover {
+  background: #000000;
+}
+
+.contact__behance:hover > .contact__behance-photo {
+  width: 19px;
+  height: 15px;
+  content: url("../../assets/logos/behance-logo-hover.svg");
+}
+
+.contact__dribbble-photo {
+  width: 15px;
+  height: 15px;
+  content: url("../../assets/logos/dribbble-logo.svg");
+}
+
+.contact__dribbble:hover {
+  background: #F26798;
+}
+
+.contact__dribbble:hover > .contact__dribbble-photo {
+  width: 15px;
+  height: 15px;
+  content: url("../../assets/logos/dribbble-logo-hover.svg");
+}
+
+.contact__rights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 272px;
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 15px;
+  color: var(--white-background);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
