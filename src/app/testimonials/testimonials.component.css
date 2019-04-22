@@ -1,0 +1,184 @@
+.testimonials {
+  padding-bottom: 120px;
+  background: var(--white-background);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.testimonials__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.testimonials__separator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 126px;
+  width: 60px;
+  height: 4px;
+  background: var(--content-titles-color_grey);
+}
+
+.testimonials__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Asap Bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 60px;
+  font-size: 46px;
+  color: var(--content-titles-color_grey);
+}
+
+.testimonials__slider {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  width: 955px;
+}
+
+.testimonials__slider-content {
+  display: flex;
+  flex-direction: row;
+  margin: 81px 74px 55px 120px;
+}
+
+.testimonials__photo {
+  width: 159px;
+  height: 159px;
+}
+
+.testimonials__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 32px;
+}
+
+.testimonials__slider-title {
+  font-family: "Asap Medium", sans-serif;
+  font-size: 29px;
+  text-transform: uppercase;
+  color: var(--testimonials_font-color);
+}
+
+.testimonials__slider-subtitle {
+  font-family: "Asap Italic", sans-serif;
+  font-size: 12px;
+  margin-top: 8px;
+  text-transform: uppercase;
+  color: var(--testimonials_font-color);
+}
+
+.testimonials__main-content {
+  font-family: "Asap Regular", sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  line-height: 23px;
+  color: #7a7a7a;
+}
+
+.testimonials-sliders-radio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 38px;
+}
+
+.testimonials-sliders-radio-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 2px;
+}
+
+.testimonials-radio-input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.testimonials-radio-input:checked{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #212121;
+  background: #212121;
+}
+
+.testimonials-radio-input:hover {
+  cursor: pointer;
+}
+
+.testimonials-radio-box {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #212121;
+}
+
+.testimonials-radio-box:hover {
+  cursor: pointer;
+}
+
+.testimonials__facts {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 154px;
+  background: var(--grey-background);
+}
+
+.testimonials__facts-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto 0;
+  width: 90%;
+}
+
+.testimonials__facts-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials__facts-photo {
+  margin: auto 0;
+}
+
+.testimonials__facts-counter {
+
+  margin: 30px auto 5px;
+  font-family: "Asap Medium", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--testimonials-facts_font-color);
+  font-weight: bold;
+}
+
+.testimonials__facts-title {
+  font-family: "Asap Regular", sans-serif;
+  text-transform: uppercase;
+  color: var(--testimonials-facts_font-color);
+  font-size: 19px;
+  font-weight: bold;
+}
