@@ -7,9 +7,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  portfolios = [
+    {link: 'javascript:;', src: '../../assets/img/hello.png', alt: 'hello'},
+    {link: 'javascript:;', src: '../../assets/img/wanaka.png', alt: 'wanaka'},
+    {link: 'javascript:;', src: '../../assets/img/perfomance.png', alt: 'perfomance'},
+    {link: 'javascript:;', src: '../../assets/img/your-music.png', alt: 'your-music'},
+    {link: 'javascript:;', src: '../../assets/img/build.png', alt: 'build'},
+    {link: 'javascript:;', src: '../../assets/img/make.png', alt: 'make'},
+    {link: 'javascript:;', src: '../../assets/img/hello.png', alt: 'hello'},
+    {link: 'javascript:;', src: '../../assets/img/wanaka.png', alt: 'wanaka'},
+    {link: 'javascript:;', src: '../../assets/img/perfomance.png', alt: 'perfomance'},
+    {link: 'javascript:;', src: '../../assets/img/your-music.png', alt: 'your-music'},
+    {link: 'javascript:;', src: '../../assets/img/build.png', alt: 'build'},
+    {link: 'javascript:;', src: '../../assets/img/make.png', alt: 'make'},
+    {link: 'javascript:;', src: '../../assets/img/hello.png', alt: 'hello'},
+    {link: 'javascript:;', src: '../../assets/img/wanaka.png', alt: 'wanaka'},
+    {link: 'javascript:;', src: '../../assets/img/perfomance.png', alt: 'perfomance'},
+    {link: 'javascript:;', src: '../../assets/img/your-music.png', alt: 'your-music'},
+    {link: 'javascript:;', src: '../../assets/img/build.png', alt: 'build'},
+    {link: 'javascript:;', src: '../../assets/img/make.png', alt: 'make'},
+  ];
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
+  showMore() {
+  }
 }

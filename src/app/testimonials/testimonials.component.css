@@ -46,6 +46,7 @@
 .testimonials__slider {
   display: flex;
   flex-direction: column;
+  padding: 85px 74px 30px 120px;
   margin: 0 auto;
   border: 1px solid #212121;
   width: 955px;
@@ -54,7 +55,6 @@
 .testimonials__slider-content {
   display: flex;
   flex-direction: row;
-  margin: 81px 74px 55px 120px;
 }
 
 .testimonials__photo {
@@ -65,7 +65,7 @@
 .testimonials__main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   margin-left: 32px;
 }
 
@@ -88,52 +88,47 @@
   font-family: "Asap Regular", sans-serif;
   font-size: 15px;
   margin-top: 10px;
+  width: 550px;
   text-transform: uppercase;
   line-height: 23px;
   color: #7a7a7a;
 }
 
-.testimonials-sliders-radio {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 38px;
+::ng-deep .swiper-pagination {
+   -webkit-transform: none!important;
+   transform: none!important;
+   z-index: 0!important;
 }
 
-.testimonials-sliders-radio-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 2px;
+::ng-deep swiper > .swiper.s-wrapper.swiper-container-horizontal > .swiper-pagination .swiper-pagination-handle .swiper-pagination-bullet.swiper-pagination-bullet-first {
+  margin: 0!important;
 }
 
-.testimonials-radio-input {
-  position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+::ng-deep swiper > .swiper.s-wrapper {
+  width: 100%;
+  height: 220px!important;
 }
 
-.testimonials-radio-input:checked{
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  border: 1px solid #212121;
-  background: #212121;
+::ng-deep .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0!important;
 }
 
-.testimonials-radio-input:hover {
-  cursor: pointer;
+::ng-deep swiper > .swiper.s-wrapper .swiper-pagination .swiper-pagination-handle {
+  padding: 0!important;
 }
 
-.testimonials-radio-box {
-  width: 12px;
-  height: 12px;
-  border: 1px solid #212121;
+::ng-deep .swiper-pagination-bullet {
+  width: 12px!important;
+  border-radius: 0!important;
+  height: 12px!important;
+  border: 1px solid #212121!important;
+  background: transparent!important;
+  opacity: 1!important;
 }
 
-.testimonials-radio-box:hover {
-  cursor: pointer;
+::ng-deep .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #212121!important;
 }
 
 .testimonials__facts {

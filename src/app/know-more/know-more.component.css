@@ -49,6 +49,12 @@
   color: var(--main-color_dark-grey);
 }
 
+.know-more__download {
+  text-decoration: none;
+  width: 245px;
+  margin-top: 35px;
+}
+
 .know-more__btn {
   display: flex;
   flex-direction: row;
@@ -56,7 +62,6 @@
   align-items: center;
   width: 245px;
   height: 50px;
-  margin-top: 35px;
   cursor: pointer;
   background: transparent;
   border: 1px solid var(--main-color_dark-grey);

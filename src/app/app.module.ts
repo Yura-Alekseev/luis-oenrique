@@ -9,6 +9,7 @@ import { MySkillsComponent } from './my-skills/my-skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactComponent } from './contact/contact.component';
+import {SwiperModule} from 'ngx-swiper-wrapper';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
+    SwiperModule,
     BrowserModule
   ],
   providers: [],

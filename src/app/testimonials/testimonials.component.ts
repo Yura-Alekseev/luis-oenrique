@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./testimonials.component.css']
 })
 export class TestimonialsComponent implements OnInit {
+  config = {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+    }
+  };
 
   constructor() { }
 
