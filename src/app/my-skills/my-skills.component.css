@@ -43,8 +43,7 @@
 }
 
 .my-skills__board {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 60px;
+  width: 61%;
+  height: 350px;
+  margin: 60px auto 110px;
 }

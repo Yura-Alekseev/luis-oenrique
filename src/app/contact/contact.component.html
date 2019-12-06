@@ -4,17 +4,32 @@
       <span class="contact__separator"></span>
       <h2 class="contact__title">say hello !</h2>
 
-      <form class="contact__form">
+      <form class="contact__form" [formGroup]="form" (ngSubmit)="onSubmit()">
         <div class="contact__form-input">
-          <input class="contact__name" type="text" placeholder="Name">
-          <input class="contact__email" type="email" placeholder="Email">
+          <input
+            class="contact__name" type="text" placeholder="Name"
+            formControlName="name"
+            [ngClass]="{'invalid-input': form.get('name').invalid && form.get('name').touched}"
+          >
+          <input
+            class="contact__email" type="email" placeholder="Email"
+            formControlName="email"
+            [ngClass]="{'invalid-input': form.get('email').invalid && form.get('email').touched}"
+          >
         </div>
-        <textarea class="contact__message" placeholder="Message"></textarea>
+        <textarea
+          class="contact__message" placeholder="Message"
+          formControlName="message"
+          [ngClass]="{'invalid-input': form.get('message').invalid && form.get('message').touched}"
+        ></textarea>
 
-        <button class="contact__form-btn" type="submit">send<span class="contact__btn-arrow"></span></button>
+        <button
+          class="contact__form-btn" type="submit"
+          [disabled]="form.invalid"
+        >send<span class="contact__btn-arrow"></span></button>
       </form>
 
-      <a class="contact__up-btn" href="#home"><span class="contact__up-btn-arrow"></span></a>
+      <div class="contact__up-btn" id="BtnToTop" (click)="scrollTo('home')"><span class="contact__up-btn-arrow"></span></div>
     </div>
 
     <div class="contact__footer">

@@ -15,7 +15,14 @@
   display: flex;
   flex-direction: column;
   width: 43%;
-  margin-top: 178px;
+  margin: 178px 0 0 -50px;
+  opacity: 0;
+  transition-duration: 2s;
+}
+
+.know-more__content--animated {
+  opacity: 1;
+  transform: translate(50px, 0);
 }
 
 .know-more__separator {
@@ -81,9 +88,14 @@
 }
 
 .know-more__photo {
-  margin-top: 109px;
   width: 570px;
   height: 445px;
+  margin: 109px -50px 125px 0;
+  opacity: 0;
+  transition-duration: 2s;
 }
 
-
+.know-more__photo--animated {
+  opacity: 1;
+  transform: translate(-50px, 0);
+}
