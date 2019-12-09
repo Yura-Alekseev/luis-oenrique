@@ -47,3 +47,31 @@
   height: 350px;
   margin: 60px auto 110px;
 }
+
+@media (max-width: 1365px) {
+  .my-skills{
+    height: 686px;
+  }
+
+  .wrapper {
+    width: 960px;
+  }
+
+  .my-skills__separator {
+    margin-top: 100px;
+    width: 52px;
+    height: 4px;
+  }
+
+  .my-skills__title {
+    margin-top: 10px;
+    letter-spacing: 6px;
+    font-size: 38px;
+  }
+
+  .my-skills__board {
+    width: 61%;
+    height: 350px;
+    margin: 50px auto 100px;
+  }
+}

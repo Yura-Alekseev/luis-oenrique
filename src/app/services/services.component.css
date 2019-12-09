@@ -78,3 +78,44 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+@media (max-width: 1365px) {
+  .services {
+    height: 592px;
+  }
+
+  .wrapper {
+    width: 960px;
+  }
+
+  .services__separator {
+    margin-top: 100px;
+    width: 52px;
+    height: 4px;
+  }
+
+  .services__title {
+    margin-top: 10px;
+    letter-spacing: 6px;
+    font-size: 38px;
+  }
+
+  .services__item {
+    width: 33%;
+    margin-top: 60px;
+    opacity: 0;
+    transition-duration: 2s;
+    transform: rotateY(-90deg);
+  }
+
+  .services__item--animated {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+
+  .services__item-title {
+    width: 60%;
+    margin-top: 15px;
+    font-size: 22px;
+  }
+}

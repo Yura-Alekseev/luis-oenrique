@@ -188,3 +188,69 @@
   transform: translate(-90px, 0);
   opacity: 1;
 }
+
+@media (max-width: 1365px) {
+  .wrapper {
+    width: 960px;
+  }
+
+  .header-logo {
+    margin-top: 25px;
+  }
+
+  .header-logo__main-title {
+    margin: 8px 0 5px;
+  }
+
+  .header-navigation__item {
+    margin: 25px 0;
+  }
+
+
+  .header__main {
+    width: 55%;
+    margin: 155px 0 0 -90px;
+    transition-duration: 2s;
+    opacity: 0;
+  }
+
+  .header__main--animated {
+    opacity: 1;
+    transform: translate(90px, 0);
+  }
+
+  .header__main-title {
+    font-size: 80px;
+    margin-left: -4px;
+  }
+
+  .header__sub-title {
+    font-size: 18px;
+  }
+
+  .header__btn {
+    margin-top: 30px;
+  }
+
+  .header__btn-know-more,
+  .header__btn-hire-me {
+    width: 140px;
+    height: 46px;
+    margin-right: 18px;
+    font-size: 15px;
+  }
+
+  .header__main-photo {
+    width: 450px;
+    height: 499px;
+    margin: 0 -90px 0 0;
+    transition-duration: 2s;
+    visibility: visible;
+    opacity: 0;
+  }
+
+  .header__main-photo--animated {
+    transform: translate(-90px, 0);
+    opacity: 1;
+  }
+}

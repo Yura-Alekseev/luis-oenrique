@@ -265,7 +265,7 @@
 }
 
 .contact__behance:hover {
-  background: #000000;
+  background: #007AB9;
 }
 
 .contact__behance:hover > .contact__behance-photo {
@@ -304,4 +304,160 @@
 
 .invalid-input {
   border: 1px solid red;
+}
+
+@media (max-width: 1365px)  {
+  .wrapper {
+    width: 960px;
+  }
+
+  .contact__separator {
+    margin-top: 110px;
+    width: 52px;
+    height: 4px;
+  }
+
+  .contact__title {
+    margin-top: 10px;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+    font-size: 38px;
+  }
+
+  /*CONTACT__FORM*/
+
+  .contact__form {
+    width: 620px;
+  }
+
+  .contact__name,
+  .contact__email {
+    width: 300px;
+    height: 47px;
+    padding: 0 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .contact__name::placeholder,
+  .contact__email::placeholder {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .contact__message {
+    width: 100%;
+    height: 187px;
+    margin-top: 26px;
+    padding: 23px 8px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .contact__message::placeholder {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .contact__form-btn {
+    margin: 26px auto 0;
+    width: 103px;
+    height: 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .contact__btn-arrow {
+    margin-left: 6px;
+    margin-top: 1px;
+  }
+
+  .contact__up-btn {
+    position: fixed;
+    top: 65vh;
+    right: 0;
+    margin: 0 20px 0 0 ;
+    width: 41px;
+    height: 37px;
+  }
+
+  .contact__footer {
+    margin-top: 48px;
+  }
+
+  .contact__social {
+    margin: 26px 0 30px;
+    width: 18%;
+  }
+
+  .contact__social-item {
+    width: 24px;
+    height: 24px;
+  }
+
+  .contact__facebook-photo {
+    width: 12px;
+    height: 17px;
+  }
+
+  .contact__facebook:hover > .contact__facebook-photo {
+    width: 12px;
+    height: 17px;
+  }
+
+  .contact__twitter-photo {
+    width: 15px;
+    height: 13px;
+  }
+
+  .contact__twitter:hover > .contact__twitter-photo {
+    width: 15px;
+    height: 13px;
+  }
+
+  .contact__linkedin-photo {
+    width: 13px;
+    height: 13px;
+  }
+
+  .contact__linkedin:hover > .contact__linkedin-photo {
+    width: 13px;
+    height: 13px;
+  }
+
+  .contact__google-plus-photo {
+    width: 22px;
+    height: 17px;
+  }
+
+  .contact__google-plus:hover > .contact__google-plus-photo {
+    width: 22px;
+    height: 17px;
+  }
+
+  .contact__behance-photo {
+    width: 19px;
+    height: 15px;
+  }
+
+  .contact__behance:hover > .contact__behance-photo {
+    width: 19px;
+    height: 15px;
+  }
+
+  .contact__dribbble-photo {
+    width: 15px;
+    height: 15px;
+  }
+
+  .contact__dribbble:hover > .contact__dribbble-photo {
+    width: 15px;
+    height: 15px;
+  }
+
+  .contact__rights {
+    margin-left: 222px;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
 }
