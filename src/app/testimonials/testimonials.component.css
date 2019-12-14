@@ -146,7 +146,7 @@
   justify-content: space-between;
   align-items: baseline;
   margin: auto 0;
-  width: 90%;
+  width: 95%;
 }
 
 .testimonials__facts-item {
@@ -256,5 +256,88 @@
 
   .testimonials__facts-title {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .testimonials {
+    padding-bottom: 80px;
+  }
+
+  .wrapper {
+    width: 720px;
+  }
+
+  .testimonials__separator {
+    margin-top: 80px;
+    width: 38px;
+    height: 3px;
+  }
+
+  .testimonials__title {
+    margin-bottom: 40px;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  .testimonials__slider {
+    padding: 55px 44px 15px 80px;
+    width: 685px;
+  }
+
+  .testimonials__photo {
+    width: 119px;
+    height: 119px;
+  }
+
+  .testimonials__main {
+    margin-left: 23px;
+  }
+
+  .testimonials__slider-title {
+    font-size: 22px;
+  }
+
+  .testimonials__slider-subtitle {
+    font-size: 9px;
+    margin-top: 6px;
+  }
+
+  .testimonials__main-content {
+    font-size: 11px;
+    margin-top: 8px;
+    width: 385px;
+    line-height: 16px;
+  }
+
+  ::ng-deep swiper > .swiper.s-wrapper {
+    height: 180px !important;
+  }
+
+  ::ng-deep .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  .testimonials__facts {
+    height: 250px;
+    margin-bottom: 84px;
+  }
+
+  .testimonials__facts-item {
+    width: 20%;
+  }
+
+  .testimonials__facts-photo {
+    width: 35%;
+  }
+
+  .testimonials__facts-counter {
+    margin: 15px auto 5px;
+    font-size: 16px;
+  }
+
+  .testimonials__facts-title {
+    font-size: 13px;
   }
 }

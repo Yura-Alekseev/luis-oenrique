@@ -167,3 +167,45 @@
     font-size: 15px;
   }
 }
+
+@media (max-width: 1023px) {
+  .portfolio{
+    padding-bottom: 80px;
+  }
+
+  .wrapper {
+    width: 720px;
+  }
+
+  .portfolio__separator {
+    margin-top: 80px;
+    width: 38px;
+    height: 3px;
+  }
+
+  .portfolio__title {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  .portfolio__item {
+    margin: 12px 0;
+    width: 32%;
+  }
+
+  .portfolio__photo {
+    width: 100%;
+  }
+
+  .portfolio__item:hover:after,
+  .portfolio__item:focus:after {
+    width: 36px;
+    height: 36px;
+  }
+
+  .portfolio__btn {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
