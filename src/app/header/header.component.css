@@ -332,7 +332,6 @@
   }
 }
 
-
 @media (max-width: 767px) {
   .wrapper {
     width: 440px;
@@ -369,7 +368,7 @@
   .header__main {
     width: 55%;
     margin: 65px 0 0 -30px;
-    transition-duration: 2s;
+    transition-duration: 1s;
     opacity: 0;
   }
 
@@ -403,7 +402,88 @@
     width: 230px;
     height: 259px;
     margin: 0 -30px 0 0;
-    transition-duration: 2s;
+    transition-duration: 1s;
+    visibility: visible;
+    opacity: 0;
+  }
+
+  .header__main-photo--animated {
+    transform: translate(-30px, 0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 479px) {
+  .wrapper {
+    width: 300px;
+  }
+
+  .header-logo {
+    margin-top: 10px;
+  }
+
+  .header-logo__photo {
+    height: 14px;
+    width: 14px;
+  }
+
+  .header-logo__main-title {
+    margin: 4px 0 2px;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+  }
+
+  .header-logo__sub-title {
+    font-size: 6px;
+  }
+
+  .header-navigation {
+    width: 60%;
+  }
+
+  .header-navigation__item {
+    margin: 10px 0;
+    font-size: 7px;
+  }
+
+  .header__main {
+    width: 55%;
+    margin: 50px 0 0 -30px;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+
+  .header__main--animated {
+    opacity: 1;
+    transform: translate(30px, 0);
+  }
+
+  .header__main-title {
+    font-size: 22px;
+    margin-left: -2px;
+  }
+
+  .header__sub-title {
+    font-size: 6px;
+  }
+
+  .header__btn {
+    margin-top: 10px;
+  }
+
+  .header__btn-know-more,
+  .header__btn-hire-me {
+    width: 50px;
+    height: 20px;
+    margin-right: 8px;
+    font-size: 7px;
+  }
+
+  .header__main-photo {
+    width: 160px;
+    height: 179px;
+    margin: 0 -30px 0 0;
+    transition-duration: 1s;
     visibility: visible;
     opacity: 0;
   }

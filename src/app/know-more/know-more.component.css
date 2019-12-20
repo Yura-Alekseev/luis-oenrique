@@ -230,7 +230,6 @@
   }
 }
 
-
 @media (max-width: 767px) {
   .know-more {
     height: 506px;
@@ -290,6 +289,81 @@
     width: 196px;
     height: 40px;
     font-size: 13px;
+  }
+
+  .know-more__photo {
+    width: 240px;
+    height: 195px;
+    margin: 45px -20px auto 0;
+    opacity: 0;
+    transition-duration: 1s;
+  }
+
+  .know-more__photo--animated {
+    opacity: 1;
+    transform: translate(0, -20px);
+  }
+}
+
+@media (max-width: 479px) {
+  .know-more {
+    height: 550px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+
+  .know-more__content {
+    width: 100%;
+    margin: 60px -20px 0 0;
+    opacity: 0;
+    transition-duration: 1s;
+  }
+
+  .know-more__content--animated {
+    opacity: 1;
+    transform: translate(0, -20px);
+  }
+
+  .know-more__separator {
+    width: 26px;
+    height: 3px;
+    margin-left: 2px;
+  }
+
+  .know-more__main-title {
+    margin-top: 8px;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 22px;
+  }
+
+  .know-more__sub-title {
+    font-size: 11px;
+    line-height: 22px;
+  }
+
+  .know-more__download {
+    text-decoration: none;
+    width: 195px;
+    margin-top: 20px;
+  }
+
+  .know-more__download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto 0;
+  }
+
+  .know-more__btn {
+    width: 156px;
+    height: 34px;
+    font-size: 10px;
   }
 
   .know-more__photo {
