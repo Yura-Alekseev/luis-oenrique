@@ -31,13 +31,14 @@ export class MySkillsComponent implements OnInit {
     },
     xAxis: {
       allowDecimals: false,
+      tickInterval: 1,
       labels: {
         useHTML: true,
         formatter() {
           if(this.value === 1)
             return '<img src="./assets/img/xd-skills.png" style="width: 26px; vertical-align: middle"/>';
           else if(this.value === 3)
-            return '<img src="./assets/img/ae-skills.png" style="width: 26px; vertical-align: middle" />';
+            return '<img src="./assets/img/ae-skills.png" style="width: 26px; vertical-align: middle"/>';
           else if (this.value === 5)
             return '<img src="./assets/img/ps-skills.png" style="width: 26px; vertical-align: middle"/>';
           else if (this.value === 7)
@@ -54,8 +55,8 @@ export class MySkillsComponent implements OnInit {
       min: 50,
       max: 100,
       labels: {
-        formatter () {
-          return this.value + '%';
+        formatter() {
+          return this.value;
         }
       }
     },

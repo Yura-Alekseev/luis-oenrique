@@ -8,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class TestimonialsComponent implements OnInit {
   config = {
     loop: true,
+    grabCursor: true,
     pagination: {
       el: '.swiper-pagination',
-      type: 'bullets',
+      type: 'bullets'
     }
   };
 

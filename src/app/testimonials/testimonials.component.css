@@ -49,7 +49,7 @@
   padding: 85px 74px 30px 120px;
   margin: 0 auto;
   border: 1px solid #212121;
-  width: 955px;
+  width: 956px;
 }
 
 .testimonials__slider-content {
@@ -199,7 +199,7 @@
 
   .testimonials__slider {
     padding: 65px 54px 20px 100px;
-    width: 785px;
+    width: 786px;
   }
 
   .testimonials__photo {
@@ -223,7 +223,7 @@
   .testimonials__main-content {
     font-size: 13px;
     margin-top: 8px;
-    width: 465px;
+    width: 466px;
     line-height: 19px;
   }
 
@@ -282,7 +282,7 @@
 
   .testimonials__slider {
     padding: 55px 44px 15px 80px;
-    width: 685px;
+    width: 686px;
   }
 
   .testimonials__photo {
@@ -306,7 +306,7 @@
   .testimonials__main-content {
     font-size: 11px;
     margin-top: 8px;
-    width: 385px;
+    width: 386px;
     line-height: 16px;
   }
 
@@ -339,5 +339,88 @@
 
   .testimonials__facts-title {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials {
+    padding-bottom: 60px;
+  }
+
+  .wrapper {
+    width: 440px;
+  }
+
+  .testimonials__separator {
+    margin-top: 60px;
+    width: 30px;
+    height: 3px;
+  }
+
+  .testimonials__title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+
+  .testimonials__slider {
+    padding: 35px 24px 10px 60px;
+    width: 420px;
+  }
+
+  .testimonials__photo {
+    width: 89px;
+    height: 89px;
+  }
+
+  .testimonials__main {
+    margin-left: 16px;
+  }
+
+  .testimonials__slider-title {
+    font-size: 18px;
+  }
+
+  .testimonials__slider-subtitle {
+    font-size: 8px;
+    margin-top: 4px;
+  }
+
+  .testimonials__main-content {
+    font-size: 7px;
+    margin-top: 6px;
+    width: 220px;
+    line-height: 10px;
+  }
+
+  ::ng-deep swiper > .swiper.s-wrapper {
+    height: 120px !important;
+  }
+
+  ::ng-deep .swiper-pagination-bullet {
+    width: 7px !important;
+    height: 7px !important;
+  }
+
+  .testimonials__facts {
+    height: 160px;
+    margin-bottom: 84px;
+  }
+
+  .testimonials__facts-item {
+    width: 22%;
+  }
+
+  .testimonials__facts-photo {
+    width: 40%;
+  }
+
+  .testimonials__facts-counter {
+    margin: 10px auto 5px;
+    font-size: 12px;
+  }
+
+  .testimonials__facts-title {
+    font-size: 10px;
   }
 }
